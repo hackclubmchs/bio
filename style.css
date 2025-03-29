@@ -2,13 +2,13 @@
 
 body {
   font-size: var(--font-3);
+  text-align: center;
 }
 
 header {
-  background: var(--purple);
+  background: radial-gradient(96.07% 96.07% at 0% 0%, #8B00FE 0%, #5901C9 100%);
   color: var(--white);
   padding: var(--spacing-6) var(--spacing-0) var(--spacing-6);
-  text-align: center;
 }
 
 .banner {
@@ -36,13 +36,15 @@ header {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(-5deg);
   }
 }
 
-header > p, header > p > a{
-  color: var(--white)!important;
+header>p,
+header>p>a {
+  color: var(--white) !important;
 }
 
 .container {
@@ -58,4 +60,10 @@ header > p, header > p > a{
 
 .title {
   margin-bottom: var(--spacing-4);
+}
+
+.link-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

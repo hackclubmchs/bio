@@ -115,3 +115,7 @@ header>p>a {
   justify-content: center;
   gap: 20px;
 }
+
+.logos img {
+  width: 32px;
+}

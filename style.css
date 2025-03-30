@@ -51,10 +51,6 @@ header>p>a {
   color: var(--white) !important;
 }
 
-.container {
-  margin: var(--spacing-4) auto;
-}
-
 .blurb {
   border: 2px dashed var(--border);
   border-radius: var(--radii-default);
@@ -70,4 +66,5 @@ header>p>a {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  margin: var(--spacing-4) auto;
 }

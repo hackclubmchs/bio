@@ -65,7 +65,7 @@ header>p>a {
 .link-list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: var(--spacing-2);
   margin: var(--spacing-4) auto;
 }
 
@@ -113,7 +113,8 @@ header>p>a {
 .logos {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: var(--spacing-3);
+  height: 32px;
 }
 
 .logos img {
@@ -121,9 +122,10 @@ header>p>a {
 }
 
 footer {
-  padding: var(--spacing-4);
+  padding-left: var(--spacing-4);
+  padding-right: var(--spacing-4);
 }
 
 footer>h4 {
-  margin-top: var(--spacing-3);
+  margin-top: var(--spacing-4);
 }
